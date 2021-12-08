@@ -11,8 +11,55 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     <title>The Christmas & New Years Store</title>
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+        <script src="js/jquery.slicknav.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('#nav_bar').slicknav({prependTo:"#mobile_menu"});
+            });
+    </script>
 </head>
 <body>
-    
+    <header>
+        <img src="images/christmaslights-header.png" alt="headerimg">
+        <section>
+            <h2>The Christmas and New Years Stoe</h2>
+            <h3>A time for everyone who celebrate, even for those who don't celebrate Christmas. The spirit of Christmas and holidays
+                will always bring love, fun, peace, joy and happiness. May everyone enjoy the gifts, love and happiness on holidays. 
+                Merry Christmas & Happy New Years. Happy Holidays everyone!</h3>
+        </section>
+    </header>
+    <nav id="mobile_menu"></nav>
+    <nav id="nav_bar">
+        <ul>
+            <li><a class="current" href="index.html" tabindex="0">Home</a></li>
+            <li><a href="slides/products/productlist.html">Product List</a></li>
+            <li><a href="slides/personal/personal.html">Personal</a></li>
+            <li><a href="slides/decorations/index.html">Decoration Ideas</a></li>
+            <li><a href="email.html">Join Email</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h1>Welcome to my site.<br>Please come in and stay awhile.</h1>
+        <p>I started this website because Christmas has always everyone's favorite holiday. Starting this year, I started selling some of my favorite Holiday (Christmas particularly) products, and they've become quite a hit.
+            If you click on the Personal link, you can browse my favorite Christmas pictures, stories, and films. And if you join my email list, I will keep you up-to-date on all things in holiday season.
+        </p>
+        <h2 id="font">Product of the Week</h2>
+        <p><a href="slides/products/king_flock_artificialchristmastree_with600LEDlights.jpg"><img src="images/king_flock_artificialchristmastree_with600LEDlights.jpg" alt="bodyimg"></a><br>
+        <a href="slides/products/king_flock_artificialchristmastree_with600LEDlights.jpg">Artificial Christmas Tree with LED Lights</a></p>
+        <h3 id="linespace">My Guarantee</h3>
+        <p>If you aren't completely satisfied with everything you buy from my site, you can return it for a full refund. No questions asked!</p>
+    </section>
+    <aside id="nav_vertical">
+        <ul>
+            <li><a href="slides/products/page1.html">Christmas Decorations</a></li>
+            <li><a href="slides/products/page2.html">Gifts</a></li>
+            <li><a href="slides/products/page3.html">Movies and Music</a></li>
+            <li><a href="slides/products/page4.html">Games</a></li>
+        </ul>
+    </aside>
 </body>
+<footer>
+    <p> &copy; 2021 Ali Shaikh</p>
+</footer>
 </html>
