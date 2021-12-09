@@ -21,10 +21,10 @@ body>section{
 header{
     border-bottom: 2px solid black;
     padding: 1em 0em;
-    background-image: -webkit-linear-gradient(45deg, black 0%, #154734 75%, white 100%);
-    background-image: -moz-linear-gradient(45deg, black 0%, #154734 75%, white 100%);
-    background-image: -o-linear-gradient(45deg, black 0%, #154734 75%, white 100%);
-    background-image: linear-gradient(45deg, black 0%, #154734 75%, white 100%);
+    background-image: -webkit-linear-gradient(45deg, #C30F16 0%, #154734 75%, black 100%);
+    background-image: -moz-linear-gradient(45deg, #C30F16 0%, #154734 75%, black 100%);
+    background-image: -o-linear-gradient(45deg, #C30F16 0%, #154734 75%, black 100%);
+    background-image: linear-gradient(45deg, #C30F16 0%, #154734 75%, black 100%);
 }
 
 header section h2{
@@ -182,10 +182,10 @@ footer{
 	padding: 0.5em 1em;
 	line-height: 1px;
 	clear:both;
-	background: -webkit-linear-gradient(45deg, black 0%, #154734 75%, white 100%);
-	background: -moz-linear-gradient(45deg, black 0%, #154734 75%, white 100%);
-	background: -o-linear-gradient(45deg, black 0%, #154734 75%, white 100%);
-	background: linear-gradient(45deg, black 0%, #154734 75%, white 100%);
+	background-image: -webkit-linear-gradient(45deg, #C30F16 0%, #154734 75%, black 100%);
+    background-image: -moz-linear-gradient(45deg, #C30F16 0%, #154734 75%, black 100%);
+    background-image: -o-linear-gradient(45deg, #C30F16 0%, #154734 75%, black 100%);
+    background-image: linear-gradient(45deg, #C30F16 0%, #154734 75%, black 100%);
 }
 
 #mobile_menu{
