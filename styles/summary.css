@@ -5,7 +5,7 @@
     font-family: 'Pathway Gothic One', sans-serif;
 }
 
-html{background-image: url(../images/pexels-max-goodrich-2403402.jpg);}
+html{background-image: url(../images/pexels-mikhail-nilov-6526175.jpg);}
 
 body{
     font-family: 'Pathway Gothic One', sans-serif;
@@ -150,13 +150,13 @@ body p{
 }
 
 a:link{ 
-	color: #154734;
+	color: #FABC02;
 	font-weight: bold;
 	}
 	
 a:visited{color: #C30F16;}
 
-a:hover, a:focus{color: green;}
+a:hover, a:focus{color: #00216F;}
 
 
 ul{
@@ -196,7 +196,7 @@ thead th:nth-child(3){
 }
 
 thead th{
-	color: gray;
+	color: black;
 	padding-bottom: 0.5em;
 }
 th, td{
